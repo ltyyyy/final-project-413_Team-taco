@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color:  #4c91af;
+  border-radius: 8px;
+  padding: 15px;
+
+}
+footer{
+  text-align: center;
+  margin-top: 50px;
+  background-color:  #417e9871;
+  border-radius: 8px;
+  padding: 15px;
+
+}
+
+h1 {
+  color: #ffffff;
+}
+
+
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 80px;
+  padding: 10px;
+  margin: 5px;
+  background-color:  #4c91af;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.publicTrans{
+  width:200px;
+}
+
+.logout{
+  margin-left: 20cap;
+  background-color: rgb(254, 97, 97);
+}
+
+
+button:hover {
+  background-color:  #1e3843;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  
+}
+
+th {
+  background-color: #4c91af;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+details {
+  margin-top: 20px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.userContact {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+.search-container {
+  max-width: 100%; 
+  overflow-x: auto; 
+  box-sizing: border-box; 
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; 
+}
+
+td {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+th {
+  background-color: #4c91af; 
+  color: white; 
+  text-align: left; 
+}
+
+.search-container input[type="text"] {
+  width: calc(100% - 90px); 
+  padding: 8px;
+  margin-right: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.search-container button {
+  width: 80px;
+  padding: 8px 15px;
+  margin: 0;
+}
+
+.contact-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.delete-button {
+  float: right; /* This will push the button to the right */
+  /* Add any additional styling you need for your buttons here */
+}
+
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  text-align: center;
+  animation: fadeIn 1s ease forwards;
+}
+
+.popup-error {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a43533;
+}
+
+.popup-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+from { opacity: 1; }
+to { opacity: 0; }
+}
+
+.popup-fade-in {
+animation: fadeIn 1s ease forwards;
+}
+
+.popup-fade-out {
+animation: fadeOut 1s ease forwards;
+}
