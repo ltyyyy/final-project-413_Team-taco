@@ -62,7 +62,7 @@ Follow these steps to set up and run the final project on your local machine:
 4. **Run the Frontend Application**:
    - In the same terminal session, execute:
      ```
-     npm run
+     npm start
      ```
    - The frontend server will start, and you can access the application.
 
