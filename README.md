@@ -45,7 +45,8 @@ At the beginning, because I could only see the user's own transaction records, w
 Follow these steps to set up and run the final project on your local machine:
 
 1. **Install MongoDB**:
-   - Visit the [MongoDB Documentation](https://www.mongodb.com/zh-cn/docs/manual/administration/install-community/) and follow the instructions to install MongoDB based on your operating system.
+   - Visit the [MongoDB Documentation](https://www.mongodb.com/docs/manual/administration/install-community/) and follow the instructions to install MongoDB based on your operating system.
+   - [MongoDB Community Server Download](https://www.mongodb.com/try/download/community)
 
 2. **Run the Backend Server**:
    - Navigate to the `/back-end/src/main/java/server` directory.
